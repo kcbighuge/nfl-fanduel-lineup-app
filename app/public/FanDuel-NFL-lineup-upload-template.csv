@@ -1,0 +1,107 @@
+QB,RB,RB,WR,WR,WR,TE,FLEX,DEF,"","Instructions"
+"","","","","","","","","","","1) Create a lineup by inserting any player from this list into their appropriate position columns"
+"","","","","","","","","","","2) You can paste either the Player ID + Name OR ID from their respective columns"
+"","","","","","","","","","","3) Any information to the right of the last position column will be ignored in the upload"
+"","","","","","","","","","","4) Maximum of 250 lineups per upload"
+"","","","","","","","","",""
+"","","","","","","","","","",Player ID + Player Name,Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+"","","","","","","","","","",125263-103020:Puka Nacua,125263-103020,WR,Puka,Puka Nacua,Nacua,20.53125,16,10000,LAR@CAR,LAR,CAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-6654:Matthew Stafford,125263-6654,QB,Matthew,Matthew Stafford,Stafford,21.787059110753678,17,8300,LAR@CAR,LAR,CAR,,,,,,QB
+"","","","","","","","","","",125263-45889:Davante Adams,125263-45889,WR,Davante,Davante Adams,Adams,13.992856706891741,14,8000,LAR@CAR,LAR,CAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-104433:Kyren Williams,125263-104433,RB,Kyren,Kyren Williams,Williams,14.605882532456341,17,8000,LAR@CAR,LAR,CAR,,,,,,RB/FLEX
+"","","","","","","","","","",125263-72731:Josh Jacobs,125263-72731,RB,Josh,Josh Jacobs,Jacobs,14.606667073567708,15,7900,GB@CHI,GB,CHI,,,,,,RB/FLEX
+"","","","","","","","","","",125263-152113:Caleb Williams,125263-152113,QB,Caleb,Caleb Williams,Williams,19.24588192210478,17,7800,GB@CHI,CHI,GB,,,,,,QB
+"","","","","","","","","","",125263-167620:Tetairoa McMillan,125263-167620,WR,Tetairoa,Tetairoa McMillan,McMillan,10.72941140567555,17,7500,LAR@CAR,CAR,LAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-69017:Jordan Love,125263-69017,QB,Jordan,Jordan Love,Love,16.475999959309895,15,7400,GB@CHI,GB,CHI,,,,,,QB
+"","","","","","","","","","",125263-72297:Rico Dowdle,125263-72297,RB,Rico,Rico Dowdle,Dowdle,12.105882532456341,17,7200,LAR@CAR,CAR,LAR,,,,,,RB/FLEX
+"","","","","","","","","","",125263-119606:Bryce Young,125263-119606,QB,Bryce,Bryce Young,Young,14.6899995803833,16,6900,LAR@CAR,CAR,LAR,,,,,,QB
+"","","","","","","","","","",125263-87691:Malik Willis,125263-87691,QB,Malik,Malik Willis,Willis,12.795000076293945,4,6500,GB@CHI,GB,CHI,Q,Shoulder,,,,QB
+"","","","","","","","","","",125263-169776:Christian Watson,125263-169776,WR,Christian,Christian Watson,Watson,11.79000015258789,10,6400,GB@CHI,GB,CHI,,,,,,WR/FLEX
+"","","","","","","","","","",125263-91598:D'Andre Swift,125263-91598,RB,D'Andre,D'Andre Swift,Swift,13.787500381469727,16,6400,GB@CHI,CHI,GB,,,,,,RB/FLEX
+"","","","","","","","","","",125263-120033:Rome Odunze,125263-120033,WR,Rome,Rome Odunze,Odunze,10.841667175292969,12,6300,GB@CHI,CHI,GB,,,,,,WR/FLEX
+"","","","","","","","","","",125263-86278:Desmond Ridder,125263-86278,QB,Desmond,Desmond Ridder,Ridder,4.784000015258789,5,6000,GB@CHI,GB,CHI,,,,,,QB
+"","","","","","","","","","",125263-54604:Jimmy Garoppolo,125263-54604,QB,Jimmy,Jimmy Garoppolo,Garoppolo,-0.3333333333333333,3,6000,LAR@CAR,LAR,CAR,,,,,,QB
+"","","","","","","","","","",125263-40534:Mike White,125263-40534,QB,Mike,Mike White,White,1.1200000047683716,1,6000,LAR@CAR,CAR,LAR,,,,,,QB
+"","","","","","","","","","",125263-14225:Andy Dalton,125263-14225,QB,Andy,Andy Dalton,Dalton,2.630000114440918,4,6000,LAR@CAR,CAR,LAR,,,,,,QB
+"","","","","","","","","","",125263-185776:Tyson Bagent,125263-185776,QB,Tyson,Tyson Bagent,Bagent,1.2899999618530273,2,6000,GB@CHI,CHI,GB,,,,,,QB
+"","","","","","","","","","",125263-90813:Clayton Tune,125263-90813,QB,Clayton,Clayton Tune,Tune,1.4900000095367432,2,6000,GB@CHI,GB,CHI,,,,,,QB
+"","","","","","","","","","",125263-91583:Stetson Bennett IV,125263-91583,QB,Stetson,Stetson Bennett IV,Bennett IV,0,1,6000,LAR@CAR,LAR,CAR,,,,,,QB
+"","","","","","","","","","",125263-166092:Luther Burden III,125263-166092,WR,Luther,Luther Burden III,Burden III,7.3600001017252605,15,6000,GB@CHI,CHI,GB,,,,,,WR/FLEX
+"","","","","","","","","","",125263-22994:Case Keenum,125263-22994,QB,Case,Case Keenum,Keenum,,0,6000,GB@CHI,CHI,GB,,,,,,QB
+"","","","","","","","","","",125263-94370:Romeo Doubs,125263-94370,WR,Romeo,Romeo Doubs,Doubs,8.618749618530273,16,5900,GB@CHI,GB,CHI,,,,,,WR/FLEX
+"","","","","","","","","","",125263-63043:DJ Moore,125263-63043,WR,DJ,DJ Moore,Moore,8.539999569163603,17,5800,GB@CHI,CHI,GB,,,,,,WR/FLEX
+"","","","","","","","","","",125263-201547:Jalen Coker,125263-201547,WR,Jalen,Jalen Coker,Coker,6.718181956898082,11,5700,LAR@CAR,CAR,LAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-137967:Blake Corum,125263-137967,RB,Blake,Blake Corum,Corum,7.1294115851907165,17,5700,LAR@CAR,LAR,CAR,,,,,,RB/FLEX
+"","","","","","","","","","",125263-89455:Jayden Reed,125263-89455,WR,Jayden,Jayden Reed,Reed,7.8,5,5600,GB@CHI,GB,CHI,,,,,,WR/FLEX
+"","","","","","","","","","",125263-166588:Colston Loveland,125263-166588,TE,Colston,Colston Loveland,Loveland,8.693750381469727,16,5600,GB@CHI,CHI,GB,,,,,,TE/FLEX
+"","","","","","","","","","",125263-144102:Kyle Monangai,125263-144102,RB,Kyle,Kyle Monangai,Monangai,8.452940996955423,17,5600,GB@CHI,CHI,GB,,,,,,RB/FLEX
+"","","","","","","","","","",125263-154000:Konata Mumpfield,125263-154000,WR,Konata,Konata Mumpfield,Mumpfield,2.0200000762939454,10,5300,LAR@CAR,LAR,CAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-89588:Colby Parkinson,125263-89588,TE,Colby,Colby Parkinson,Parkinson,7.735714503696987,14,5300,LAR@CAR,LAR,CAR,,,,,,TE/FLEX
+"","","","","","","","","","",125263-87467:Chuba Hubbard,125263-87467,RB,Chuba,Chuba Hubbard,Hubbard,7.3600001017252605,15,5200,LAR@CAR,CAR,LAR,,,,,,RB/FLEX
+"","","","","","","","","","",125263-64496:Olamide Zaccheaus,125263-64496,WR,Olamide,Olamide Zaccheaus,Zaccheaus,4.664285932268415,14,5200,GB@CHI,CHI,GB,,,,,,WR/FLEX
+"","","","","","","","","","",125263-114198:Xavier Legette,125263-114198,WR,Xavier,Xavier Legette,Legette,4.7866668701171875,15,5100,LAR@CAR,CAR,LAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-166916:Matthew Golden,125263-166916,WR,Matthew,Matthew Golden,Golden,3.9642857142857144,14,5000,GB@CHI,GB,CHI,,,,,,WR/FLEX
+"","","","","","","","","","",125263-47870:Tyler Higbee,125263-47870,TE,Tyler,Tyler Higbee,Higbee,6.511110941569011,9,5000,LAR@CAR,LAR,CAR,,,,,,TE/FLEX
+"","","","","","","","","","",125263-151915:Terrance Ferguson,125263-151915,TE,Terrance,Terrance Ferguson,Ferguson,4.236363497647372,11,4900,LAR@CAR,LAR,CAR,Q,Hamstring,,,,TE/FLEX
+"","","","","","","","","","",125263-113096:Xavier Smith,125263-113096,WR,Xavier,Xavier Smith,Smith,2.456249952316284,16,4900,LAR@CAR,LAR,CAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-12538:Los Angeles Rams,125263-12538,D,Los Angeles,Los Angeles Rams,Rams,8.294117647058824,17,4900,LAR@CAR,LAR,CAR,,,,,,DEF
+"","","","","","","","","","",125263-110457:Dontayvion Wicks,125263-110457,WR,Dontayvion,Dontayvion Wicks,Wicks,4.676923018235427,13,4800,GB@CHI,GB,CHI,O,Concussion,,,,WR/FLEX
+"","","","","","","","","","",125263-103195:Jordan Whittington,125263-103195,WR,Jordan,Jordan Whittington,Whittington,1.8199999491373697,15,4700,LAR@CAR,LAR,CAR,O,Knee,,,,WR/FLEX
+"","","","","","","","","","",125263-91101:Tommy Tremble,125263-91101,TE,Tommy,Tommy Tremble,Tremble,3.3600001017252605,15,4700,LAR@CAR,CAR,LAR,,,,,,TE/FLEX
+"","","","","","","","","","",125263-185861:Emanuel Wilson,125263-185861,RB,Emanuel,Emanuel Wilson,Wilson,5.294117647058823,17,4600,GB@CHI,GB,CHI,,,,,,RB/FLEX
+"","","","","","","","","","",125263-113228:Luke Musgrave,125263-113228,TE,Luke,Luke Musgrave,Musgrave,2.861538520226112,13,4600,GB@CHI,GB,CHI,,,,,,TE/FLEX
+"","","","","","","","","","",125263-92976:Tutu Atwell,125263-92976,WR,Tutu,Tutu Atwell,Atwell,3.5250000953674316,8,4500,LAR@CAR,LAR,CAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-91047:Cole Kmet,125263-91047,TE,Cole,Cole Kmet,Kmet,3.981250047683716,16,4500,GB@CHI,CHI,GB,,,,,,TE/FLEX
+"","","","","","","","","","",125263-154124:Mitchell Evans,125263-154124,TE,Mitchell,Mitchell Evans,Evans,2.9769231356107273,13,4400,LAR@CAR,CAR,LAR,,,,,,TE/FLEX
+"","","","","","","","","","",125263-92606:Bo Melton,125263-92606,WR,Bo,Bo Melton,Melton,1.8500000635782878,12,4400,GB@CHI,GB,CHI,IR,Knee,,,,WR/FLEX
+"","","","","","","","","","",125263-91971:Ronnie Rivers,125263-91971,RB,Ronnie,Ronnie Rivers,Rivers,0.7666666507720947,6,4300,LAR@CAR,LAR,CAR,,,,,,RB/FLEX
+"","","","","","","","","","",125263-102831:Davis Allen,125263-102831,TE,Davis,Davis Allen,Allen,3.3866666158040366,15,4300,LAR@CAR,LAR,CAR,,,,,,TE/FLEX
+"","","","","","","","","","",125263-157438:Jimmy Horn Jr.,125263-157438,WR,Jimmy,Jimmy Horn Jr.,Horn Jr.,2.3200000762939452,10,4300,LAR@CAR,CAR,LAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-89627:Brycen Tremayne,125263-89627,WR,Brycen,Brycen Tremayne,Tremayne,1.9166666666666667,12,4200,LAR@CAR,CAR,LAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-79987:David Moore,125263-79987,WR,David,David Moore,Moore,0.7333333492279053,3,4200,LAR@CAR,CAR,LAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-86255:Josh Whyle,125263-86255,TE,Josh,Josh Whyle,Whyle,2.0166667302449546,6,4200,GB@CHI,GB,CHI,,,,,,TE/FLEX
+"","","","","","","","","","",125263-12527:Chicago Bears,125263-12527,D,Chicago,Chicago Bears,Bears,6.764705882352941,17,4200,GB@CHI,CHI,GB,,,,,,DEF
+"","","","","","","","","","",125263-91488:Chris Brooks,125263-91488,RB,Chris,Chris Brooks,Brooks,1.746666717529297,15,4100,GB@CHI,GB,CHI,,,,,,RB/FLEX
+"","","","","","","","","","",125263-172646:Trevor Etienne,125263-172646,RB,Trevor,Trevor Etienne,Etienne,0.5999999887803021,17,4100,LAR@CAR,CAR,LAR,,,,,,RB/FLEX
+"","","","","","","","","","",125263-71032:Devin Duvernay,125263-71032,WR,Devin,Devin Duvernay,Duvernay,0.21176470027250402,17,4100,GB@CHI,CHI,GB,,,,,,WR/FLEX
+"","","","","","","","","","",125263-83138:Ross Dwelley,125263-83138,TE,Ross,Ross Dwelley,Dwelley,0.42500001192092896,4,4100,LAR@CAR,CAR,LAR,,,,,,TE/FLEX
+"","","","","","","","","","",125263-158983:Ja'Tavion Sanders,125263-158983,TE,Ja'Tavion,Ja'Tavion Sanders,Sanders,3.590909090909091,11,4000,LAR@CAR,CAR,LAR,IR,Lower leg,,,,TE/FLEX
+"","","","","","","","","","",125263-113160:Jakobie Keeney-James,125263-113160,WR,Jakobie,Jakobie Keeney-James,Keeney-James,2.5,1,4000,GB@CHI,GB,CHI,,,,,,WR/FLEX
+"","","","","","","","","","",125263-103187:Roschon Johnson,125263-103187,RB,Roschon,Roschon Johnson,Johnson,0.5666666825612386,3,4000,GB@CHI,CHI,GB,IR,Thumb,,,,RB/FLEX
+"","","","","","","","","","",125263-71444:Travis Homer,125263-71444,RB,Travis,Travis Homer,Homer,-0.04000000059604645,5,4000,GB@CHI,CHI,GB,,,,,,RB/FLEX
+"","","","","","","","","","",125263-110617:Isaiah Neyor,125263-110617,WR,Isaiah,Isaiah Neyor,Neyor,,0,4000,GB@CHI,GB,CHI,,,,,,WR/FLEX
+"","","","","","","","","","",125263-152603:Anthony Tyus III,125263-152603,RB,Anthony,Anthony Tyus III,Tyus III,,0,4000,LAR@CAR,CAR,LAR,,,,,,RB/FLEX
+"","","","","","","","","","",125263-71459:Brittain Brown,125263-71459,RB,Brittain,Brittain Brown,Brown,4.849999904632568,2,4000,GB@CHI,CHI,GB,,,,,,RB/FLEX
+"","","","","","","","","","",125263-160303:Tucker Kraft,125263-160303,TE,Tucker,Tucker Kraft,Kraft,13.399999618530273,8,4000,GB@CHI,GB,CHI,IR,Knee - acl,,,,TE/FLEX
+"","","","","","","","","","",125263-160306:Pierre Strong Jr.,125263-160306,RB,Pierre,Pierre Strong Jr.,Strong Jr.,2.3500000635782876,12,4000,GB@CHI,GB,CHI,,,,,,RB/FLEX
+"","","","","","","","","","",125263-226875:Ja'seem Reed,125263-226875,WR,Ja'seem,Ja'seem Reed,Reed,,0,4000,LAR@CAR,CAR,LAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-137017:Drake Dabney,125263-137017,TE,Drake,Drake Dabney,Dabney,0.800000011920929,1,4000,GB@CHI,GB,CHI,,,,,,TE/FLEX
+"","","","","","","","","","",125263-42046:Durham Smythe,125263-42046,TE,Durham,Durham Smythe,Smythe,0.9,5,4000,GB@CHI,CHI,GB,,,,,,TE/FLEX
+"","","","","","","","","","",125263-120642:Savion Williams,125263-120642,WR,Savion,Savion Williams,Williams,1.7083333333333333,12,4000,GB@CHI,GB,CHI,IR,Foot,,,,WR/FLEX
+"","","","","","","","","","",125263-156997:Tru Edwards,125263-156997,WR,Tru,Tru Edwards,Edwards,,0,4000,LAR@CAR,LAR,CAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-165962:Nikola Kalinic,125263-165962,TE,Nikola,Nikola Kalinic,Kalinic,0,2,4000,GB@CHI,CHI,GB,,,,,,TE/FLEX
+"","","","","","","","","","",125263-104008:Stephen Carlson,125263-104008,TE,Stephen,Stephen Carlson,Carlson,,0,4000,GB@CHI,CHI,GB,,,,,,TE/FLEX
+"","","","","","","","","","",125263-104019:Matt Orzech,125263-104019,TE,Matt,Matt Orzech,Orzech,0,1,4000,GB@CHI,GB,CHI,,,,,,TE/FLEX
+"","","","","","","","","","",125263-155733:Montrell Johnson Jr.,125263-155733,RB,Montrell,Montrell Johnson Jr.,Johnson Jr.,,0,4000,LAR@CAR,CAR,LAR,,,,,,RB/FLEX
+"","","","","","","","","","",125263-65627:Maurice Alexander,125263-65627,WR,Maurice,Maurice Alexander,Alexander,0,1,4000,GB@CHI,CHI,GB,,,,,,WR/FLEX
+"","","","","","","","","","",125263-114532:Deion Hankins,125263-114532,RB,Deion,Deion Hankins,Hankins,,0,4000,GB@CHI,CHI,GB,IR,Quadriceps,,,,RB/FLEX
+"","","","","","","","","","",125263-129641:Will Sheppard,125263-129641,WR,Will,Will Sheppard,Sheppard,,0,4000,GB@CHI,GB,CHI,O,Undisclosed,,,,WR/FLEX
+"","","","","","","","","","",125263-169067:Bryce Pierre,125263-169067,TE,Bryce,Bryce Pierre,Pierre,,0,4000,LAR@CAR,CAR,LAR,,,,,,TE/FLEX
+"","","","","","","","","","",125263-110977:Thomas Gordon,125263-110977,TE,Thomas,Thomas Gordon,Gordon,,0,4000,GB@CHI,CHI,GB,,,,,,TE/FLEX
+"","","","","","","","","","",125263-57986:Hunter Renfrow,125263-57986,WR,Hunter,Hunter Renfrow,Renfrow,4.733333269755046,6,4000,LAR@CAR,CAR,LAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-119697:MarShawn Lloyd,125263-119697,RB,MarShawn,MarShawn Lloyd,Lloyd,2.299999952316284,1,4000,GB@CHI,GB,CHI,IR,Hamstring,,,,RB/FLEX
+"","","","","","","","","","",125263-64405:Dan Chisena,125263-64405,WR,Dan,Dan Chisena,Chisena,1.2999999523162842,4,4000,LAR@CAR,CAR,LAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-28570:Nick Vannett,125263-28570,TE,Nick,Nick Vannett,Vannett,3.3333333333333335,12,4000,LAR@CAR,LAR,CAR,,,,,,TE/FLEX
+"","","","","","","","","","",125263-137889:Brennan Presley,125263-137889,WR,Brennan,Brennan Presley,Presley,,0,4000,LAR@CAR,LAR,CAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-87731:Dominique Robinson,125263-87731,WR,Dominique,Dominique Robinson,Robinson,0,10,4000,GB@CHI,CHI,GB,,,,,,WR/FLEX
+"","","","","","","","","","",125263-156596:Jarquez Hunter,125263-156596,RB,Jarquez,Jarquez Hunter,Hunter,,0,4000,LAR@CAR,LAR,CAR,,,,,,RB/FLEX
+"","","","","","","","","","",125263-114109:Ainias Smith,125263-114109,WR,Ainias,Ainias Smith,Smith,2.839999961853027,5,4000,LAR@CAR,CAR,LAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-152014:JP Richardson,125263-152014,WR,JP,JP Richardson,Richardson,,0,4000,GB@CHI,CHI,GB,,,,,,WR/FLEX
+"","","","","","","","","","",125263-166106:Damien Martinez,125263-166106,RB,Damien,Damien Martinez,Martinez,,0,4000,GB@CHI,GB,CHI,,,,,,RB/FLEX
+"","","","","","","","","","",125263-129240:Tyler Scott,125263-129240,WR,Tyler,Tyler Scott,Scott,0.2,5,4000,LAR@CAR,LAR,CAR,,,,,,WR/FLEX
+"","","","","","","","","","",125263-120035:Mark Redman,125263-120035,TE,Mark,Mark Redman,Redman,,0,4000,LAR@CAR,LAR,CAR,,,,,,TE/FLEX
+"","","","","","","","","","",125263-85986:James Mitchell,125263-85986,TE,James,James Mitchell,Mitchell,2.1500000953674316,2,4000,LAR@CAR,CAR,LAR,,,,,,TE/FLEX
+"","","","","","","","","","",125263-91618:John FitzPatrick,125263-91618,TE,John,John FitzPatrick,FitzPatrick,1.9200000762939453,10,4000,GB@CHI,GB,CHI,IR,Achilles,,,,TE/FLEX
+"","","","","","","","","","",125263-193004:Jahdae Walker,125263-193004,WR,Jahdae,Jahdae Walker,Walker,7.900000254313151,3,4000,GB@CHI,CHI,GB,,,,,,WR/FLEX
+"","","","","","","","","","",125263-12533:Green Bay Packers,125263-12533,D,Green Bay,Green Bay Packers,Packers,4.647058823529412,17,3900,GB@CHI,GB,CHI,,,,,,DEF
+"","","","","","","","","","",125263-12553:Carolina Panthers,125263-12553,D,Carolina,Carolina Panthers,Panthers,6.0588235294117645,17,3400,LAR@CAR,CAR,LAR,,,,,,DEF
