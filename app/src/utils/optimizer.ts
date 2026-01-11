@@ -52,6 +52,15 @@ function selectBestPlayer(
     return candidates[0]?.player || null;
 }
 
+function getMinSalary(players: Player[], position: string): number {
+    const validPlayers = players.filter(p => {
+        if (position === 'FLEX') return ['RB', 'WR', 'TE'].includes(p.position);
+        return p.position === position;
+    });
+    if (validPlayers.length === 0) return 4000; // Default fallback
+    return Math.min(...validPlayers.map(p => p.salary));
+}
+
 function buildSingleLineup(
     players: Player[],
     settings: OptimizationSettings,
@@ -103,9 +112,18 @@ function buildSingleLineup(
         else if (p.position === 'DEF' && !lineup.def) lineup.def = p;
     });
 
+    // Calculate min salaries for each position to ensure we reserve enough budget
+    const minSalaries = {
+        QB: getMinSalary(eligible, 'QB'),
+        RB: getMinSalary(eligible, 'RB'),
+        WR: getMinSalary(eligible, 'WR'),
+        TE: getMinSalary(eligible, 'TE'),
+        DEF: getMinSalary(eligible, 'DEF'),
+        FLEX: getMinSalary(eligible, 'FLEX')
+    };
+
     // Filter by exposure limits
     const getExposureEligible = (pool: Player[]) => {
-        const _lineupCount = previousLineups.length + 1; // Used for exposure calculation context
         return pool.filter(p => {
             const currentExposure = playerExposures.get(p.id) || 0;
             const maxAllowed = Math.ceil((p.exposureLimit / 100) * settings.numberOfLineups);
@@ -126,14 +144,26 @@ function buildSingleLineup(
         { slot: 'flex', position: 'FLEX' },
     ];
 
-    for (const { slot, position } of positionOrder) {
+    for (let i = 0; i < positionOrder.length; i++) {
+        const { slot, position } = positionOrder[i];
         if (lineup[slot]) continue;
 
+        // Calculate reserved salary for future empty slots
+        let reservedSalary = 0;
+        for (let j = i + 1; j < positionOrder.length; j++) {
+            const nextSlot = positionOrder[j];
+            if (!lineup[nextSlot.slot]) {
+                reservedSalary += minSalaries[nextSlot.position as keyof typeof minSalaries] || 4000;
+            }
+        }
+
+        const maxBudget = remainingSalary - reservedSalary;
         const exposureEligible = getExposureEligible(eligible);
+
         const player = selectBestPlayer(
             exposureEligible,
             position,
-            remainingSalary,
+            maxBudget,
             usedIds,
             settings,
             ['RB', 'WR', 'TE']

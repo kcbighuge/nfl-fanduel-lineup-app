@@ -7,10 +7,10 @@ import type { Player, Lineup } from '../types';
  * Headers are on row 7 (index 6), and player data starts on row 8 (index 7).
  */
 
-interface FanDuelRow {
-    // Raw array of values - FanDuel CSVs have complex structure
-    [key: string]: string;
-}
+// interface FanDuelRow {
+//     // Raw array of values - FanDuel CSVs have complex structure
+//     [key: string]: string;
+// }
 
 export function parsePlayerCSV(csvText: string): Player[] {
     const result = Papa.parse<string[]>(csvText, {
@@ -81,7 +81,7 @@ export function parsePlayerCSV(csvText: string): Player[] {
     const posCol = getCol(['Position', 'Pos']);
     const firstNameCol = getCol(['First Name', 'FirstName']);
     const lastNameCol = getCol(['Last Name', 'LastName']);
-    const nicknameCol = getCol(['Nickname', 'Player ID + Player Name']);
+    // const nicknameCol = getCol(['Nickname', 'Player ID + Player Name']);
     const fppgCol = getCol(['FPPG', 'FantasyPointsPerGame']);
     const playedCol = getCol(['Played', 'Games']);
     const salaryCol = getCol(['Salary', 'Cost']);
@@ -218,7 +218,7 @@ export function exportLineupsToCSV(lineups: Lineup[]): string {
         ].join(',');
     });
 
-    return [header, ...rows].join('\n');
+    return [header, ...rows].join('\\n');
 }
 
 export function downloadCSV(content: string, filename: string): void {

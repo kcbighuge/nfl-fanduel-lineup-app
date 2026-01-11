@@ -5,18 +5,18 @@ import type { Player, NewsIndicator, NewsItem } from '../types';
  * In production, this would integrate with real news APIs, RSS feeds, etc.
  */
 
-// Sample news data types for reference (used in production with real APIs)
-const _SAMPLE_NEWS_DATA: Record<string, { indicator: NewsIndicator; adjustment: number; news: string }> = {
-    'smash': { indicator: 'smash', adjustment: 4.1, news: 'Multiple positive factors align - weak opponent, good weather, increased role' },
-    'upgrade': { indicator: 'upgrade', adjustment: 2.5, news: 'Teammate ruled OUT, increased target share expected' },
-    'monitor': { indicator: 'monitor', adjustment: 0, news: 'Questionable with injury, practiced limited Friday' },
-    'downgrade': { indicator: 'downgrade', adjustment: -2.0, news: 'Key defensive player healthy, tough matchup expected' },
-    'weather_risk': { indicator: 'weather_risk', adjustment: -1.5, news: 'Wind 15+ mph expected, outdoor stadium' },
-};
+// // Sample news data types for reference (used in production with real APIs)
+// const _SAMPLE_NEWS_DATA: Record<string, { indicator: NewsIndicator; adjustment: number; news: string }> = {
+//     'smash': { indicator: 'smash', adjustment: 4.1, news: 'Multiple positive factors align - weak opponent, good weather, increased role' },
+//     'upgrade': { indicator: 'upgrade', adjustment: 2.5, news: 'Teammate ruled OUT, increased target share expected' },
+//     'monitor': { indicator: 'monitor', adjustment: 0, news: 'Questionable with injury, practiced limited Friday' },
+//     'downgrade': { indicator: 'downgrade', adjustment: -2.0, news: 'Key defensive player healthy, tough matchup expected' },
+//     'weather_risk': { indicator: 'weather_risk', adjustment: -1.5, news: 'Wind 15+ mph expected, outdoor stadium' },
+// };
 
-// Weather data by team (simulated)
+// // Weather data by team (simulated)
 const OUTDOOR_TEAMS = ['BUF', 'GB', 'CHI', 'NE', 'CLE', 'PIT', 'DEN', 'KC', 'TEN', 'JAX', 'CAR', 'WAS', 'PHI', 'NYG', 'NYJ', 'MIA', 'BAL', 'CIN', 'SF', 'SEA', 'TB'];
-const _DOME_TEAMS = ['MIN', 'DET', 'IND', 'HOU', 'NO', 'ATL', 'LV', 'ARI', 'LAR', 'LAC', 'DAL']; // For reference
+// const _DOME_TEAMS = ['MIN', 'DET', 'IND', 'HOU', 'NO', 'ATL', 'LV', 'ARI', 'LAR', 'LAC', 'DAL']; // For reference
 
 // Matchup rankings (simulated - lower is better for defense)
 const DEFENSE_RANKINGS: Record<string, Record<string, number>> = {
@@ -26,12 +26,12 @@ const DEFENSE_RANKINGS: Record<string, Record<string, number>> = {
     'TE': { 'MIN': 30, 'KC': 28, 'SEA': 27, 'DET': 25, 'CLE': 23, 'PHI': 3, 'SF': 4, 'CHI': 5 },
 };
 
-function _getRandomIndicator(): NewsIndicator | undefined {
-    const indicators: (NewsIndicator | undefined)[] = [
-        'smash', 'upgrade', 'monitor', 'downgrade', 'weather_risk', undefined, undefined, undefined
-    ];
-    return indicators[Math.floor(Math.random() * indicators.length)];
-}
+// function _getRandomIndicator(): NewsIndicator | undefined {
+//     const indicators: (NewsIndicator | undefined)[] = [
+//         'smash', 'upgrade', 'monitor', 'downgrade', 'weather_risk', undefined, undefined, undefined
+//     ];
+//     return indicators[Math.floor(Math.random() * indicators.length)];
+// }
 
 function generatePlayerNews(player: Player): { indicator?: NewsIndicator; adjustment: number; newsItems: NewsItem[] } {
     const newsItems: NewsItem[] = [];
